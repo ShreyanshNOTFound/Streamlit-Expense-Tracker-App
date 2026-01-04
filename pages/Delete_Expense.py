@@ -18,7 +18,7 @@ if st.button("Delete Expense", type="primary"):
     else:
         try:
             status_code, data = delete_expense(id)
-            if status_code == 204:
+            if status_code == 200:
                 st.success(data)
             else:
                 st.error(data)

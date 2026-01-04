@@ -110,6 +110,6 @@ def delete_expense(id: int) -> tuple:
     response = requests.delete(endpoint).json()
     
     if response.get("message"):
-        return (204, response.get("message"))
+        return (200, response.get("message"))
     
     return (404, response.get("detail"))

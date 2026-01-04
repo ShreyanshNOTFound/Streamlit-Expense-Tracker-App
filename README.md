@@ -29,7 +29,7 @@ Hi, I’m Shreyansh Kumar, a Python developer with a keen interest in exploring 
 Clone the project
 
 ```bash
-  git clone https://github.com/ShreyanshNOTFound/Expense-Trcaker-App.git
+  git clone https://github.com/ShreyanshNOTFound/Streamlit-Expense-Tracker-App.git
 ```
 
 
@@ -69,10 +69,14 @@ For support, email shreyansh4545kumar@yahoo.com .
     ├── utils
     │   ├── constants.py
     │   └── pandas_objects_validator.py
-    ├── .env 
+    ├── .env
+    ├── .gitignore 
     ├── app.py
     ├── LICENSE  
     ├── README.md
     └── requirements.txt
     
+
+## About The API
+To know more about the API go to my [Expense-Tracker-API](https://github.com/ShreyanshNOTFound/Expense-Tracker-API) repository.
 
